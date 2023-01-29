@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.3.0 commit date:2022-09-06, commit time:15:39, hash:0759f671ce1f</authoring_tool>
+    </contributor>
+    <created>2022-09-21T14:41:55</created>
+    <modified>2022-09-21T14:41:55</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Collapsible_bridge_cell_006-mesh" name="Collapsible bridge_cell.006">
+      <mesh>
+        <source id="Collapsible_bridge_cell_006-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_006-mesh-positions-array" count="126">-2.685264 1.024186 0.8120325 3.629768 2.834523 0.8470998 -1.673612 1.93073 -0.6813998 2.641547 3.17772 -0.6813998 2.960097 2.447237 1.3186 -5.290681 -0.3069821 -0.6813998 -5.326804 -0.3293656 -0.6813998 -5.326804 -0.3884819 -0.3697491 -5.326804 -2.056146 -0.6813998 -5.28969 -2.125149 -0.6813998 -5.224534 -2.245944 -0.6813998 0.8490958 -2.82228 1.3186 -1.324314 1.208463 1.3186 3.526885 2.611013 1.3186 3.698077 3.17772 0.06032919 4.309964 0.1060223 -0.6813998 3.814877 3.17772 -0.6813998 4.182483 -2.82228 -0.6813998 4.333883 -0.1318757 -0.6813998 4.36129 -2.82228 0.2340734 -4.912873 -2.82228 -0.6813998 4.073407 -2.82228 1.3186 -1.673612 1.93073 -0.6813998 -5.290681 -0.3069821 -0.6813998 -5.326804 -0.3293656 -0.6813998 -5.326804 -0.3884819 -0.3697491 -5.326804 -2.056146 -0.6813998 -5.28969 -2.125149 -0.6813998 -5.224534 -2.245944 -0.6813998 0.8490958 -2.82228 1.3186 -1.324314 1.208463 1.3186 4.309964 0.1060223 -0.6813998 3.814877 3.17772 -0.6813998 4.182483 -2.82228 -0.6813998 4.333883 -0.1318757 -0.6813998 3.526885 2.611013 1.3186 4.073407 -2.82228 1.3186 2.641547 3.17772 -0.6813998 2.960097 2.447237 1.3186 3.698077 3.17772 0.06032919 4.36129 -2.82228 0.2340734 -4.912873 -2.82228 -0.6813998</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_006-mesh-positions-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_006-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_006-mesh-normals-array" count="105">-0.5195184 0.8397568 0.1578273 -0.5200114 0.8391951 0.1591855 -0.2580332 0.8935309 0.3674526 -0.2581788 0.8929342 0.3687984 0.9755658 0.1572388 0.1534512 0.9799612 -0.05514663 -0.1914028 0.9619579 0.0967186 0.2555045 -0.3228989 -0.1741853 0.9302666 0 0 1 0 -1 -1.39866e-7 -1 0 0 3.53678e-6 0 -1 0 1 -2.05464e-7 -0.5200102 0.8391959 0.1591851 -0.2581964 0.8934813 0.3674588 -0.2581995 0.8935676 0.3672468 -0.2579281 0.8935844 0.3673964 -0.258197 0.8934804 0.3674603 0.9754229 0.1579789 0.1536 0.9619274 0.09657353 0.2556744 0.9619682 0.096762 0.2554494 0.9619994 0.09669131 0.2553585 -0.3227308 -0.1740192 0.930356 -0.3231839 -0.1738703 0.9302265 -0.3232018 -0.1738392 0.9302261 -0.3223511 -0.1738727 0.930515 -0.3225452 -0.1744205 0.9303451 0 0 1 0 0 1 0 -1 5.45447e-7 0 -1 2.09706e-7 -2.29934e-6 0 -1 0 0 -1 -2.51826e-7 0 -1 -1.72788e-7 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_006-mesh-normals-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_006-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_006-mesh-map-0-array" count="240">1 0.9674261 0.03214567 0 1 0 1 0.01853924 0.03214567 0.03214567 0.07985967 0.0187152 0.9103564 0 0 0 0.9798831 0.9707338 0.08998519 0.08998519 1 0.08964353 1 1 0.9685537 0.956924 0 0 0.9681031 0 0.9487548 0.9487548 0.01719939 0.01719939 0.9486578 0.01740062 1 0.9487548 0.9681032 0.9681032 1 0.9043269 0.976134 0.8983525 0.9784311 0.009269475 1 1 0.7714138 0.5304368 0.7978013 0.75 0.7574973 0.75 0.625 0.9228013 0.375 0.8811339 0.4894342 0.8788989 0.4139563 0.1014083 0.375 0.1038714 0.375 0.03192222 0.1254639 0.7209529 0.125 0.7180777 0.1254515 0.645196 0.375 0.3496044 0.4677162 0.362811 0.375 0.364271 1 0.01853924 1 1 0.03214567 0.03214567 0.03257393 0 0 0 0.9103564 0 0.9103564 0 0.9043266 0.9043266 0 0 0 0 0.8724911 0 0.9798831 0.9707338 0.9798831 0.9707338 0.03257393 0 0.9103564 0 0.9685537 0.956924 0.872491 0.872491 0 0 1 0 1 0.9043269 0.9681032 0.9681032 1 0.9043269 0.9595075 0.9506907 1 0.9487548 0.9595075 0.9506907 1 0.01719933 1 0.9487548 0.9784311 0.009269475 1 0.08998537 1 1 1 1 0.01853924 0.01853924 0.9761795 0 0.01853924 0.01853924 0.9372618 0.01862293 0.03241717 0.03241717 0.9761795 0 0.01853924 0.01853924 0.03241717 0.03241717 0.9761795 0 0.976134 0.8983525 1 1 0.7574973 0.75 0.7643288 0.5236127 0.7714138 0.5304368 0.7714138 0.5304368 0.8249689 0.5820524 0.7978013 0.75 0.4894342 0.8788989 0.625 0.8824974 0.625 0.9228013 0.625 0.9228013 0.375 0.9948258 0.375 0.8811339 0.125 0.7180777 0.125 0.6461285 0.1254515 0.645196 0.1254515 0.645196 0.1706649 0.5519579 0.1301741 0.75 0.1706649 0.5519579 0.2246044 0.5 0.2454596 0.6279874 0.1254515 0.645196 0.1262784 0.725986 0.1254639 0.7209529 0.2246044 0.5 0.239271 0.5 0.2454596 0.6279874 0.2454596 0.6279874 0.2457585 0.6378998 0.1706649 0.5519579 0.2457585 0.6378998 0.243866 0.75 0.1706649 0.5519579 0.243866 0.75 0.1301741 0.75 0.1706649 0.5519579 0.1301741 0.75 0.1262784 0.725986 0.1254515 0.645196</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_006-mesh-map-0-array" count="120" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_006-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_006-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="40">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_006-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_006-mesh-map-0" offset="2" set="0"/>
+          <p>22 0 0 23 0 1 0 0 2 25 1 3 23 1 4 24 1 5 38 2 6 1 2 7 37 2 8 30 3 9 38 3 10 0 3 11 32 4 12 1 4 13 31 4 14 34 5 15 40 5 16 33 5 17 34 6 18 31 6 19 35 6 20 41 7 21 29 7 22 0 7 23 4 8 24 11 8 25 21 8 26 11 9 27 17 9 28 19 9 29 7 10 30 6 10 31 8 10 32 9 11 33 8 11 34 5 11 35 3 12 36 14 12 37 16 12 38 25 13 39 0 13 40 23 13 41 22 14 42 0 14 43 38 14 44 38 15 45 35 15 46 1 15 47 1 16 48 39 16 49 37 16 50 37 17 51 22 17 52 38 17 53 32 18 54 39 18 55 1 18 56 1 19 57 35 19 58 31 19 59 35 20 60 36 20 61 34 20 62 36 21 63 40 21 64 34 21 65 29 22 66 30 22 67 0 22 68 0 23 69 25 23 70 28 23 71 25 24 72 26 24 73 27 24 74 28 25 75 25 25 76 27 25 77 28 26 78 41 26 79 0 26 80 21 27 81 13 27 82 4 27 83 4 28 84 12 28 85 11 28 86 19 29 87 21 29 88 11 29 89 11 30 90 20 30 91 17 30 92 8 31 93 6 31 94 5 31 95 5 32 96 2 32 97 20 32 98 2 32 99 3 32 100 15 32 101 5 33 102 10 33 103 9 33 104 3 32 105 16 32 106 15 32 107 15 34 108 18 34 109 2 34 110 18 32 111 17 32 112 2 32 113 17 32 114 20 32 115 2 32 116 20 32 117 10 32 118 5 32 119</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_005-mesh" name="Collapsible bridge_cell.005">
+      <mesh>
+        <source id="Collapsible_bridge_cell_005-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_005-mesh-positions-array" count="63">-1.545872 -2.063842 0.8232423 -1.545872 -2.063842 -1.176758 1.093815 1.781963 0.3176328 2.452483 1.966518 0.8232423 -0.2249203 1.74527 0.8232423 4.625445 -2.063842 0.8232423 -1.545872 -1.30881 -1.176758 -1.545872 0.3628686 -0.8640787 2.467762 1.938351 0.8232423 -1.545872 0.3700152 -0.8627351 -1.545872 1.399193 0.8232423 -1.139353 -2.063842 -1.176758 -1.139353 -2.063842 -1.176758 -1.545872 -1.30881 -1.176758 -1.545872 0.3628686 -0.8640787 4.625445 -2.063842 0.8232423 2.467762 1.938351 0.8232423 -1.545872 0.3700152 -0.8627351 -1.545872 1.399193 0.8232423 2.452483 1.966518 0.8232423 -0.2249203 1.74527 0.8232423</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_005-mesh-positions-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_005-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_005-mesh-normals-array" count="48">-0.08153122 0.9866396 -0.1410495 0.3225966 0.1739199 -0.9304211 0 0 1 0 -1 1.54533e-7 -1 0 0 0 0 -1 -0.21823 0.8329665 -0.5084709 0.3227632 0.1740846 -0.9303326 0.3231563 0.1739917 -0.9302134 0.3229413 0.1739658 -0.9302929 0.3224403 0.1749027 -0.9302911 0.3224364 0.1749053 -0.930292 0 0 1 0 -1 0 -1 -4.47055e-5 0 -0.2181474 0.8329546 -0.5085258</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_005-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_005-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_005-mesh-map-0-array" count="120">0 0 0.9096956 0 0.91078 0.91078 0.03223472 0.008553147 1 0 1 0.9718255 0.858488 0.591287 0.8750001 0.6057069 0.875 0.75 0.625 1 0.375 0.9949185 0.625 0.9228585 0.625 0 0.625 0.1442931 0.4140848 0.1011129 0.1300814 0.75 0.125 0.75 0.125 0.7185403 1 0.09030449 0.01866263 0.01866263 0.9718059 0.04011034 0.03223472 0.008553147 0.103668 0.02381098 1 0 0.103668 0.02381098 0.08505284 0.01193374 0.01200491 0.01200491 1 0 0.103668 0.02381098 0.01200491 0.01200491 0.01200491 0.01200491 0.01866263 0 1 0 1 0 1 0.9107798 1 0.9718255 0.7978586 0.75 0.8248296 0.5832419 0.875 0.75 0.8248296 0.5832419 0.8250206 0.5820683 0.858488 0.591287 0.875 0.75 0.8248296 0.5832419 0.858488 0.591287 0.625 1 0.375 1 0.375 0.9949185 0.4142528 0.1014107 0.4140848 0.1011129 0.625 0.1442931 0.4140848 0.1011129 0.375 0.03145968 0.625 0 0.375 0.03145968 0.375 0 0.625 0 1 0.09030449 1 1 0.01866263 0.01866263</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_005-mesh-map-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_005-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_005-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="20">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_005-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 20 0 1 19 0 2 15 1 3 2 1 4 16 1 5 4 2 6 18 2 7 0 2 8 0 3 9 11 3 10 5 3 11 0 4 12 18 4 13 7 4 14 11 5 15 1 5 16 6 5 17 20 6 18 17 6 19 10 6 20 15 7 21 12 7 22 2 7 23 12 8 24 13 8 25 14 8 26 2 9 27 12 9 28 14 9 29 14 10 30 17 10 31 2 10 32 2 11 33 19 11 34 16 11 35 5 2 36 8 2 37 0 2 38 8 2 39 3 2 40 4 2 41 0 12 42 8 12 43 4 12 44 0 13 45 1 13 46 11 13 47 9 14 48 7 14 49 18 14 50 7 4 51 6 4 52 0 4 53 6 4 54 1 4 55 0 4 56 20 15 57 2 15 58 17 15 59</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_004-mesh" name="Collapsible bridge_cell.004">
+      <mesh>
+        <source id="Collapsible_bridge_cell_004-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_004-mesh-positions-array" count="96">-5.085711 0.7146947 0.6623954 -5.085711 0.7146947 -1.337605 -2.44502 -1.437365 0.1563962 3.871147 0.3731406 0.1921159 3.9386 0.7146947 -0.5906145 3.938798 0.7146947 0.4170227 3.768714 0.1493375 0.6623954 3.933537 0.7146947 -0.5943179 3.915485 0.7146947 0.6623954 3.933753 0.7146947 0.4706532 3.794054 0.2467929 0.6623954 2.874035 0.7146947 -1.337605 -1.085954 -1.253353 0.6623954 -3.765827 -1.474003 0.6623954 -1.432229 -0.5303049 -1.337605 -4.896246 -1.162107 0.6623954 -5.085711 0.4800522 -1.337605 -5.085711 -1.10975 0.6623954 3.915485 0.7146947 0.6623954 3.933753 0.7146947 0.4706532 3.794054 0.2467929 0.6623954 3.933537 0.7146947 -0.5943179 2.874035 0.7146947 -1.337605 -1.085954 -1.253353 0.6623954 3.768714 0.1493375 0.6623954 -5.085711 0.4800522 -1.337605 -5.085711 -1.10975 0.6623954 -1.432229 -0.5303049 -1.337605 -4.896246 -1.162107 0.6623954 3.9386 0.7146947 -0.5906145 3.938798 0.7146947 0.4170227 -3.765827 -1.474003 0.6623954</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_004-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_004-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_004-mesh-normals-array" count="75">0.9809681 -0.1941695 -1.93104e-4 0.2676062 -0.8913683 -0.3658546 0.963845 -0.2501411 0.09182727 0.9638352 -0.2506024 0.09066641 -0.2114632 -0.7651111 -0.6081846 0.08124315 -0.9867244 0.1406222 0.258165 -0.8932695 -0.3679955 -0.2113432 -0.7659805 -0.6071311 0 0 1 -1 0 0 0 0 -1 0 1 0 0.2676717 -0.8913373 -0.3658823 0.9638325 -0.2506108 0.0906713 0.9638322 -0.2506121 0.09067046 -0.211431 -0.7651143 -0.6081918 -0.2116115 -0.765194 -0.6080287 0.2581053 -0.8932948 -0.367976 0.2578622 -0.8934931 -0.3676646 0.2582829 -0.8933612 -0.3676897 2.04327e-7 0 1 4.95745e-7 0 1 0 1 0 0 1 0 0 1 -1.80743e-6</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_004-mesh-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_004-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_004-mesh-map-0-array" count="192">1 0 1 0.8717172 0.1281486 0 0 0 1 0.9213686 0.8717171 0.8717171 1 0.1894099 1 0.921456 0.268033 0.1898682 1 0 1 0.8718512 0.9214556 0.9214556 0.9108437 0 0.97602 0.01339447 0 0 1 0 1 0.9106708 0.08923 0 0.9722537 0.02359402 0.9213687 0.9213687 0.03499162 0.03499162 0 0 0.9107701 0 0.9108437 0.9108437 0.8585014 0.5911958 0.825003 0.582002 0.875 0.5 0.625 0.25 0.375 0.2402232 0.625 0.1739814 0.125 0.5 0.1706685 0.5518749 0.125 0.5097768 0.375 0.3494969 0.5943284 0.3628063 0.4679108 0.3627406 0 0 1 0.03499174 1 0.9213686 0.9214556 0.9214556 0.1894097 0.1894097 1 0 0.1894097 0.1894097 0.09542649 0 1 0 0.02359008 0.01350158 0.97602 0.01339447 0.9108437 0 0.97602 0.01339447 0.9677588 0.9677588 0 0 0.03499162 0.03499162 0.9106709 0.9106709 0.9722537 0.02359402 0.9106709 0.9106709 0 0 0.9677589 0 0.9722537 0.02359402 0.9106709 0.9106709 0.9677589 0 0.825003 0.582002 0.7643197 0.5235566 0.764003 0.519496 0.764003 0.519496 0.762485 0.5 0.825003 0.582002 0.762485 0.5 0.875 0.5 0.825003 0.582002 0.875 0.5 0.875 0.5760186 0.8726317 0.5782001 0.8726317 0.5782001 0.8585014 0.5911958 0.875 0.5 0.625 0.25 0.375 0.25 0.375 0.2402232 0.125 0.5 0.2244968 0.5 0.1706685 0.5518749 0.375 0.3494969 0.375 0.25 0.625 0.25 0.625 0.25 0.625 0.362515 0.375 0.3494969 0.625 0.362515 0.6010323 0.3627433 0.375 0.3494969 0.6010323 0.3627433 0.5943284 0.3628063 0.375 0.3494969 0.5943284 0.3628063 0.4683737 0.3628039 0.4679108 0.3627406</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_004-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_004-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_004-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="32">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_004-mesh-map-0" offset="2" set="0"/>
+          <p>3 0 0 29 0 1 30 0 2 3 1 3 21 1 4 29 1 5 20 2 6 19 2 7 8 2 8 3 3 9 30 3 10 19 3 11 28 4 12 16 4 13 2 4 14 2 5 15 23 5 16 31 5 17 22 6 18 21 6 19 24 6 20 2 7 21 31 7 22 28 7 23 13 8 24 12 8 25 0 8 26 0 9 27 25 9 28 26 9 29 1 10 30 14 10 31 25 10 32 11 11 33 5 11 34 7 11 35 3 12 36 24 12 37 21 12 38 19 13 39 20 13 40 3 13 41 20 14 42 24 14 43 3 14 44 17 15 45 16 15 46 28 15 47 16 16 48 27 16 49 2 16 50 24 17 51 23 17 52 22 17 53 23 18 54 2 18 55 27 18 56 22 19 57 23 19 58 27 19 59 12 20 60 6 20 61 10 20 62 10 8 63 18 8 64 12 8 65 18 8 66 0 8 67 12 8 68 0 21 69 26 21 70 15 21 71 15 8 72 13 8 73 0 8 74 0 9 75 1 9 76 25 9 77 1 10 78 11 10 79 14 10 80 11 22 81 1 22 82 0 22 83 0 23 84 18 23 85 11 23 86 18 22 87 9 22 88 11 22 89 9 24 90 5 24 91 11 24 92 5 22 93 4 22 94 7 22 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_003-mesh" name="Collapsible bridge_cell.003">
+      <mesh>
+        <source id="Collapsible_bridge_cell_003-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_003-mesh-positions-array" count="57">1.511987 0.0445367 0.7120936 -1.126585 0.3715355 1.219423 -1.126585 1.960778 -0.7805772 2.497975 0.9586089 -0.7805772 -1.126585 -0.3363797 1.219423 -1.126585 -1.366016 -0.4674782 0.1891708 0.007871866 1.219423 2.523709 0.9514698 -0.7805772 -1.089922 -1.284872 -0.7805772 -1.126585 -1.307533 -0.7805772 -1.126585 1.960778 -0.7805772 2.497975 0.9586089 -0.7805772 -1.126585 -0.3363797 1.219423 -1.126585 -1.366016 -0.4674782 2.523709 0.9514698 -0.7805772 -1.089922 -1.284872 -0.7805772 -1.126585 -1.307533 -0.7805772 -1.126585 0.3715355 1.219423 0.1891708 0.007871866 1.219423</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_003-mesh-positions-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_003-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_003-mesh-normals-array" count="36">0.2115334 0.7650562 0.6082292 0.5196338 -0.8396593 -0.157965 0.5192546 -0.8400897 -0.156921 0 0 1 -1 0 0 0 0 -1 0.2180688 -0.8330581 0.50839 0.211497 0.7652082 0.6080507 0.2119075 0.7652649 0.6078362 0.2121493 0.7647242 0.6084322 0.519257 -0.8400883 -0.1569203 0.2179553 -0.8330417 0.5084653</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_003-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_003-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_003-mesh-map-0-array" count="96">0.9760901 0.9705761 0 0 0.976087 0 0.9674434 0.9674434 0 0 0.9677357 0 0.9812726 0 0.9677355 0.9677355 0 0 0.8585531 0.5912585 0.875 0.5761058 0.875 0.6056023 0.4141374 0.1014961 0.625 0.1443976 0.625 0.1738941 0.170307 0.5516446 0.1706287 0.551942 0.1254583 0.6451228 1 0.9096781 0.0187273 0 1 0 0.9760901 0.9705761 0.06384897 0.02359396 0.9096782 0.9096782 0.9096782 0.9096782 0 0 0.9760901 0.9705761 0 0 0.9674435 0 0.976087 0 0.9812726 0 0.9813652 0.9195976 0.9677355 0.9677355 0.375 0.2401126 0.375 0.1039329 0.625 0.1738941 0.375 0.1039329 0.4141374 0.1014961 0.625 0.1738941 0.125 0.646067 0.125 0.5098875 0.1254583 0.6451228 0.125 0.5098875 0.170307 0.5516446 0.1254583 0.6451228 1 0.9096781 0.9713756 0.9308184 0.0187273 0</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_003-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_003-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_003-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="16">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_003-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 0 0 1 11 0 2 14 1 3 0 1 4 15 1 5 5 2 6 15 2 7 0 2 8 6 3 9 1 3 10 12 3 11 13 4 12 12 4 13 1 4 14 3 5 15 7 5 16 8 5 17 18 6 18 5 6 19 0 6 20 10 7 21 17 7 22 18 7 23 18 8 24 0 8 25 10 8 26 0 9 27 14 9 28 11 9 29 5 10 30 16 10 31 15 10 32 2 4 33 9 4 34 1 4 35 9 4 36 13 4 37 1 4 38 9 5 39 2 5 40 8 5 41 2 5 42 3 5 43 8 5 44 18 11 45 4 11 46 5 11 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_002-mesh" name="Collapsible bridge_cell.002">
+      <mesh>
+        <source id="Collapsible_bridge_cell_002-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_002-mesh-positions-array" count="24">-1.269191 -0.671975 -0.228589 -1.117516 2.015925 -0.228589 -1.090315 -0.671975 0.6857662 3.477022 -0.671975 -0.228589 -1.090315 -0.671975 0.6857662 3.477022 -0.671975 -0.228589 -1.269191 -0.671975 -0.228589 -1.117516 2.015925 -0.228589</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_002-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_002-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_002-mesh-normals-array" count="12">-0.9798953 0.05529397 0.1916975 0.1861023 0.3181123 0.9296078 0 -1 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_002-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_002-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_002-mesh-map-0-array" count="24">1 0.9492641 0.06884753 0.01748162 1 0.01742053 0.9492642 0.9492642 0.01742058 0.01742058 0.9494443 0.01745545 0.375 0.8217797 0.4892944 0.8788713 0.375 0.8811073 0.3032203 0.75 0.2438926 0.75 0.2457886 0.6380042</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_002-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_002-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_002-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="4">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_002-mesh-map-0" offset="2" set="0"/>
+          <p>7 0 0 6 0 1 4 0 2 7 1 3 4 1 4 5 1 5 3 2 6 2 2 7 0 2 8 3 3 9 0 3 10 1 3 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_001-mesh" name="Collapsible bridge_cell.001">
+      <mesh>
+        <source id="Collapsible_bridge_cell_001-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_001-mesh-positions-array" count="96">7.966039 -2.729848 0.7856877 -3.075817 2.927194 0.3158938 -1.891262 3.270152 0.7856877 -3.007501 3.270152 0.542241 7.966039 -2.729848 -0.7572064 7.966039 -0.2218667 0.7856877 -3.031091 3.270152 0.7856877 -3.029537 3.270152 0.7691066 -3.177469 2.704668 0.7856877 -2.39486 0.1991791 -1.214312 -2.682061 -2.233249 0.7856877 -2.37121 -0.03612416 -1.214312 -2.63215 -2.729848 0.7856877 5.869036 -2.729848 -1.214312 2.233421 -2.729848 -1.214312 -2.343837 -2.729848 -0.2982888 -2.363776 -0.04132074 -1.214312 -2.343837 -2.729848 -0.2982888 -2.63215 -2.729848 0.7856877 7.966039 -2.729848 -0.7572064 7.966039 -0.2218667 0.7856877 -3.031091 3.270152 0.7856877 -3.029537 3.270152 0.7691066 -2.39486 0.1991791 -1.214312 -2.37121 -0.03612416 -1.214312 -2.682061 -2.233249 0.7856877 5.869036 -2.729848 -1.214312 2.233421 -2.729848 -1.214312 -1.891262 3.270152 0.7856877 -3.007501 3.270152 0.542241 -2.363776 -0.04132074 -1.214312 -3.177469 2.704668 0.7856877</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_001-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_001-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_001-mesh-normals-array" count="75">0.1828723 0.5152946 -0.8372749 -0.9618744 -0.09667223 -0.2558364 -0.9641434 0.2495133 -0.09039205 -0.9628025 0.2535071 -0.09351754 -0.9623808 -0.09655308 -0.2539701 -0.1860399 -0.3181155 -0.9296191 -0.2209063 -0.3160136 -0.9226786 0 0 1 0 -1 1.31157e-7 0 0 -1 1 0 0 0 1 0 0.182528 0.5159957 -0.8369183 0.1825117 0.5151957 -0.8374144 0.1825413 0.5151756 -0.8374204 0.182656 0.5153419 -0.8372931 -0.9619081 -0.09667527 -0.2557083 -0.961906 -0.09668052 -0.2557145 -0.961876 -0.09676015 -0.2557972 -0.9641282 0.2495684 -0.09040188 0 0 1 0 0 1 0 -1 0 0 -1 -4.06031e-7 0 0.9999999 -5.84795e-4</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_001-mesh-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_001-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_001-mesh-map-0-array" count="180">1 0.0315293 0 0 0.9964804 0.8998278 0.9828432 0 0.9825688 0.9707518 1 0.09583902 1 1 0.9803838 0.09631425 1 0.1282092 1 1 0.1282091 0.1282091 1 0.1273658 1 1 0.09583908 0.09583908 1 0.09631711 1 0.9487331 0.06804269 0.01739245 1 0.01717889 0.9487331 0.9487331 0.0171566 0 0.9493076 0 0.7581012 0.7293084 0.7482163 0.5 0.7642939 0.5235618 0.375 0.8216577 0.375 0.7762126 0.625 0.75 0.2458773 0.637978 0.2454887 0.6279572 0.3033422 0.75 0.625 0.75 0.4321382 0.75 0.625 0.6455008 0.5945692 0.3628308 0.625 0.3625358 0.625 0.3767837 0 0 0.8726342 0 0.9964804 0.8998278 0.9964804 0.8998278 0.975423 0.9705607 0.9826408 0.8803222 0.975423 0.9705607 0.01849997 0.0137127 0.9826408 0.8803222 0.9826408 0.8803222 1 0.0315293 0.9964804 0.8998278 1 1 0.03152942 0.03152942 1 0.09583902 0.03152942 0.03152942 0.05069231 0 1 0.09583902 0.05069231 0 0.9828432 0 1 0.09583902 1 1 0.09631717 0.09631717 0.9803838 0.09631425 0.7574774 0.75 0.625 0.75 0.7581012 0.7293084 0.625 0.75 0.625 0.6455008 0.7581012 0.7293084 0.625 0.6455008 0.7482163 0.5 0.7581012 0.7293084 0.7482163 0.5 0.7624641 0.5 0.7642939 0.5235618 0.375 0.7762126 0.4321382 0.75 0.625 0.75 0.625 0.75 0.625 0.8824774 0.375 0.8216577 0.625 0.8824774 0.4895029 0.8788734 0.375 0.8216577 0.2457844 0.6377615 0.2454887 0.6279572 0.2458773 0.637978 0.2454887 0.6279572 0.3487875 0.7500001 0.3033422 0.75 0.5945692 0.3628308 0.6229274 0.3625553 0.625 0.3625358</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_001-mesh-map-0-array" count="90" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_001-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_001-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="30">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_001-mesh-map-0" offset="2" set="0"/>
+          <p>23 0 0 1 0 1 28 0 2 17 1 3 18 1 4 25 1 5 1 2 6 21 2 7 22 2 8 1 3 9 22 3 10 29 3 11 1 4 12 25 4 13 31 4 14 30 5 15 14 5 16 17 5 17 30 6 18 17 6 19 24 6 20 10 7 21 2 7 22 8 7 23 27 8 24 13 8 25 0 8 26 16 9 27 9 9 28 27 9 29 0 10 30 4 10 31 5 10 32 3 11 33 6 11 34 2 11 35 1 12 36 29 12 37 28 12 38 28 13 39 20 13 40 26 13 41 20 14 42 19 14 43 26 14 44 26 15 45 23 15 46 28 15 47 1 16 48 23 16 49 25 16 50 23 17 51 24 17 52 25 17 53 24 18 54 17 18 55 25 18 56 1 19 57 31 19 58 21 19 59 12 20 60 0 20 61 10 20 62 0 20 63 5 20 64 10 20 65 5 21 66 2 21 67 10 21 68 2 20 69 6 20 70 8 20 71 13 22 72 4 22 73 0 22 74 0 22 75 12 22 76 27 22 77 12 23 78 15 23 79 27 23 80 11 9 81 9 9 82 16 9 83 9 9 84 13 9 85 27 9 86 3 24 87 7 24 88 6 24 89</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_009-mesh" name="Collapsible bridge_cell.009">
+      <mesh>
+        <source id="Collapsible_bridge_cell_009-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_009-mesh-positions-array" count="21">0.615783 0.3261695 -0.2708345 0.615783 0.3261695 0.8125033 -1.847349 0.3261695 -0.2708345 0.615783 -0.9785085 -0.2708345 0.615783 0.3261695 0.8125033 -1.847349 0.3261695 -0.2708345 0.615783 -0.9785085 -0.2708345</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_009-mesh-positions-array" count="7" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_009-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_009-mesh-normals-array" count="12">-0.3205236 -0.6051241 0.7287589 0 0 -1 1 0 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_009-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_009-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_009-mesh-map-0-array" count="24">0.9650363 0.9230397 0.06034064 0.01822197 0.9651364 0.01839578 0.375 0.5543616 0.3442108 0.5 0.375 0.5 0.375 0.5543616 0.375 0.5 0.5104172 0.5 0.375 0.5 0.375 0.4692108 0.5104172 0.5</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_009-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_009-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_009-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="4">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_009-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_009-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_009-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 3 0 1 1 0 2 6 1 3 2 1 4 0 1 5 6 2 6 0 2 7 4 2 8 0 3 9 2 3 10 4 3 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collapsible_bridge_cell_008-mesh" name="Collapsible bridge_cell.008">
+      <mesh>
+        <source id="Collapsible_bridge_cell_008-mesh-positions">
+          <float_array id="Collapsible_bridge_cell_008-mesh-positions-array" count="75">4.900555 1.871836 1.173676 4.900555 -4.128164 -0.8263238 -6.140863 1.529627 0.7025813 -6.072792 1.871836 -0.08195954 -6.073281 1.871836 0.9281575 -5.955412 1.871836 -0.8263238 -5.46106 -1.195537 -0.8263238 -4.947082 1.871836 1.173676 4.900555 -4.128164 -0.3718489 4.900555 -1.616834 1.173676 4.900555 1.871836 0.2599839 2.428269 1.871836 -0.8263238 4.900555 0.5643833 -0.8263238 2.818894 -4.128164 -0.8263238 -5.955412 1.871836 -0.8263238 -5.46106 -1.195537 -0.8263238 2.818894 -4.128164 -0.8263238 4.900555 -4.128164 -0.3718489 4.900555 -1.616834 1.173676 4.900555 1.871836 0.2599839 2.428269 1.871836 -0.8263238 4.900555 0.5643833 -0.8263238 -6.072792 1.871836 -0.08195954 -6.073281 1.871836 0.9281575 -4.947082 1.871836 1.173676</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_008-mesh-positions-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_008-mesh-normals">
+          <float_array id="Collapsible_bridge_cell_008-mesh-normals-array" count="51">-0.9809926 0.1940453 -4.75121e-4 -0.9755567 -0.1572252 -0.1535232 -0.1828008 -0.5152886 0.8372943 0.3201724 0.6054197 -0.7286678 0 0 1 0 -1 0 0 0 -1 1 0 0 0 1 0 -0.9752939 -0.1585835 -0.1537957 -0.1825971 -0.5154256 0.8372544 -0.182489 -0.5157448 0.8370813 -0.1826943 -0.515324 0.8372957 -0.1825321 -0.5153597 0.8373091 0 0 -1 1 4.17789e-7 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_008-mesh-normals-array" count="17" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collapsible_bridge_cell_008-mesh-map-0">
+          <float_array id="Collapsible_bridge_cell_008-mesh-map-0-array" count="144">1 0 1 0.8721929 0.1269919 0 1 0 0.9844259 0.9112221 0.03160136 0 0.8960428 0.8789238 0.01216775 0.005105674 0.9689454 0.005085229 0.06003409 0.04186308 0.9655606 0.04132795 0.9655235 0.9472869 0.625 0.6453613 0.625 0.5 0.7480955 0.5 0.375 0.7760208 0.375 0.75 0.4318094 0.75 0.375 0.5544772 0.375 0.75 0.3489792 0.75 0.375 0.5544772 0.625 0.6453613 0.375 0.75 0.375 0.4690964 0.375 0.3643004 0.625 0.3769046 1 0 1 0.873008 0.9844259 0.9112221 0.9689454 0.005085229 0.9975427 0.08830022 0.8960428 0.8789238 0.9975427 0.08830022 0.8721925 0.8721925 1 1 0.03160125 0.03160125 0.9975427 0.08830022 1 1 0.03160125 0.03160125 0.8960428 0.8789238 0.9975427 0.08830022 0.3489792 0.75 0.2454798 0.6278073 0.3440964 0.5 0.2454798 0.6278073 0.2393004 0.5 0.3440964 0.5 0.3440964 0.5 0.375 0.5544772 0.3489792 0.75 0.375 0.5544772 0.5107885 0.5 0.625 0.5 0.625 0.5 0.625 0.6453613 0.375 0.5544772 0.625 0.6453613 0.4318094 0.75 0.375 0.75 0.375 0.3643004 0.4680455 0.3628332 0.625 0.3769046 0.4680455 0.3628332 0.5943102 0.362827 0.625 0.3769046 0.625 0.3769046 0.625 0.5 0.375 0.4690964 0.625 0.5 0.5107885 0.5 0.375 0.4690964</float_array>
+          <technique_common>
+            <accessor source="#Collapsible_bridge_cell_008-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collapsible_bridge_cell_008-mesh-vertices">
+          <input semantic="POSITION" source="#Collapsible_bridge_cell_008-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="24">
+          <input semantic="VERTEX" source="#Collapsible_bridge_cell_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Collapsible_bridge_cell_008-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Collapsible_bridge_cell_008-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 23 0 1 22 0 2 2 1 3 14 1 4 15 1 5 16 2 6 17 2 7 18 2 8 21 3 9 20 3 10 10 3 11 9 4 12 0 4 13 24 4 14 13 5 15 1 5 16 8 5 17 12 6 18 1 6 19 13 6 20 12 7 21 9 7 22 1 7 23 11 8 24 5 8 25 24 8 26 2 9 27 22 9 28 14 9 29 18 10 30 7 10 31 16 10 32 7 11 33 23 11 34 2 11 35 15 12 36 7 12 37 2 12 38 15 13 39 16 13 40 7 13 41 13 14 42 6 14 43 11 14 44 6 6 45 5 6 46 11 6 47 11 6 48 12 6 49 13 6 50 12 7 51 19 7 52 0 7 53 0 7 54 9 7 55 12 7 56 9 15 57 8 15 58 1 15 59 5 16 60 3 16 61 24 16 62 3 16 63 4 16 64 24 16 65 24 16 66 0 16 67 11 16 68 0 16 69 19 16 70 11 16 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Collapsible_bridge_cell_007" name="Collapsible bridge_cell.007" type="NODE">
+        <matrix sid="transform">1 0 0 -4.673196 0 1 0 -0.1777201 0 0 1 -0.3186002 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_006-mesh" name="Collapsible bridge_cell.007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_006" name="Collapsible bridge_cell.006" type="NODE">
+        <matrix sid="transform">1 0 0 -8.454128 0 1 0 -0.9361577 0 0 1 0.1767577 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_005-mesh" name="Collapsible bridge_cell.006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_005" name="Collapsible bridge_cell.005" type="NODE">
+        <matrix sid="transform">1 0 0 -4.914289 0 1 0 2.285305 0 0 1 0.3376047 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_004-mesh" name="Collapsible bridge_cell.005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_004" name="Collapsible bridge_cell.004" type="NODE">
+        <matrix sid="transform">1 0 0 -8.873415 0 1 0 0.8019233 0 0 1 -0.2194228 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_003-mesh" name="Collapsible bridge_cell.004">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_003" name="Collapsible bridge_cell.003" type="NODE">
+        <matrix sid="transform">1 0 0 0.7806048 0 1 0 -2.328025 0 0 1 -0.7714109 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_002-mesh" name="Collapsible bridge_cell.003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_002" name="Collapsible bridge_cell.002" type="NODE">
+        <matrix sid="transform">1 0 0 2.033961 0 1 0 -0.2701518 0 0 1 0.2143123 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_001-mesh" name="Collapsible bridge_cell.002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell_001" name="Collapsible bridge_cell.001" type="NODE">
+        <matrix sid="transform">1 0 0 9.384217 0 1 0 2.673831 0 0 1 -0.7291656 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_009-mesh" name="Collapsible bridge_cell.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Collapsible_bridge_cell" name="Collapsible bridge_cell" type="NODE">
+        <matrix sid="transform">1 0 0 5.099445 0 1 0 1.128164 0 0 1 -0.1736762 0 0 0 1</matrix>
+        <instance_geometry url="#Collapsible_bridge_cell_008-mesh" name="Collapsible bridge_cell">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
